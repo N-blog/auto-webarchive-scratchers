@@ -1,0 +1,22 @@
+{
+  "name": "auto-webarchive-scratchers",
+  "version": "1.0.0",
+  "description": "Scratchユーザーのフォローネットワークを取得し、Wayback Machineに保存する自動ツール",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "scratch",
+    "webarchive",
+    "wayback",
+    "crawler",
+    "followers"
+  ],
+  "author": "YourNameHere",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "chalk": "^5.2.0"
+  }
+}
